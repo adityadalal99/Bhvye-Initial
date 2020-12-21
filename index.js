@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const cookieParser = require('cookie-parser');
-const pgsql  =require('./connection');
+//const pgsql  =require('./connection');
 dotenv.config({path: '.config/config.env'});
 
 const app = express();

@@ -5,12 +5,14 @@ const pgp = require('pg-promise')();
 const asyncHandler = require('../middleware/async');
 const ErrorResponse = require('../utils/errorResponse');
 
+
 const client = {
   host: `${process.env.DB_HOST}`,
-  port: DB_PORT,
+  port: process.env.DB_PORT,
   user: `${process.env.DB_USER}`,
   password: `${process.env.DB_PASS}`,
 };
+
 
 const db = pgp(client);
 

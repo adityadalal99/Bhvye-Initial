@@ -27,9 +27,9 @@ exports.protect = asyncHandler(async (req, res, next) => {
   try {
     // Verify token
     const decoded = jwt.verify(token, `${process.env.JWT_SECRET}`);
-    console.log(decoded.username);
+    //console.log(decoded.username);
     req.user = await getUsername(decoded.username);
-    console.log("Helloooo bud" + req.user.username);
+    //console.log("Helloooo bud" + req.user.username);
     next();
   } catch (err) {
     return next(new ErrorResponse('Not authorized to access this route', 401));

@@ -1,0 +1,11 @@
+{
+    "username" : "adityadalal64",
+    "password" : "123456789"
+}
+
+
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkaXR5YWRhbGFsNjQiLCJpYXQiOjE2MDg1MzM4MDIsImV4cCI6MTYxMTEyNTgwMn0.gPKrK_2coM0S3P3TSg-IMLTIloYAKG9HlQ4MU8WCGIk"
+}

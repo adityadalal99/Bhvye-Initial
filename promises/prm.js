@@ -3,7 +3,7 @@ const { as } = require('pg-promise');
 
 const client = {
   host: `${process.env.DB_HOST}`,
-  port: DB_PORT,
+  port: process.env.DB_PORT,
   user: `${process.env.DB_USER}`,
   password: `${process.env.DB_PASS}`,
 };
